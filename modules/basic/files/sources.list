@@ -1,0 +1,16 @@
+#
+
+# deb cdrom:[Debian GNU/Linux 6.0.4 _Squeeze_ - Official amd64 NETINST Binary-1 20120129-00:39]/ squeeze main
+
+#deb cdrom:[Debian GNU/Linux 6.0.4 _Squeeze_ - Official amd64 NETINST Binary-1 20120129-00:39]/ squeeze main
+
+deb http://ftp.stw-bonn.de/debian/ squeeze main non-free contrib
+deb-src http://ftp.stw-bonn.de/debian/ squeeze main non-free contrib
+
+deb http://security.debian.org/ squeeze/updates main non-free contrib
+deb-src http://security.debian.org/ squeeze/updates main non-free contrib
+
+# squeeze-updates, previously known as 'volatile'
+deb http://ftp.stw-bonn.de/debian/ squeeze-updates main non-free contrib
+deb-src http://ftp.stw-bonn.de/debian/ squeeze-updates main non-free contrib
+
