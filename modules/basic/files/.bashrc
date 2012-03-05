@@ -12,6 +12,7 @@ alias ls='ls $LS_OPTIONS'
 alias ll='ls $LS_OPTIONS -lah'
 alias l='ls $LS_OPTIONS -lA'
 alias more='less'
+alias vi='vim'
 
 # Some more alias to avoid making mistakes:
 alias rm='rm -i'
