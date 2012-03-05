@@ -2,5 +2,6 @@ node 'basenode' {
   include baseclass
 }
  
-node 'jetserver.cassini.de' inherits basenode { 
+node '*.cassini.local' inherits basenode { 
+  # this is a standard cassini node
 }
